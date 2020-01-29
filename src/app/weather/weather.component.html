@@ -1,0 +1,13 @@
+
+<div class="">
+  <ag-grid-angular
+    style="width: 500px; height: 500px;"
+    class="ag-theme-balham"
+    [rowData]="forecast"
+    [columnDefs]="columnDefs"
+    >
+  </ag-grid-angular>
+  <div class="">
+  <a  [routerLink]="['/']" routerLinkActive="active"> <button mat-button color="secondary"><mat-icon>keyboard_backspace</mat-icon> back </button></a> 
+  </div>
+</div>
